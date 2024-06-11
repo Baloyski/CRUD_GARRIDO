@@ -1,0 +1,42 @@
+body {
+  
+    background: linear-gradient(45deg, #2a2927, #f5ea54, #2d0892 );
+    background-size: 400% 400%;
+    animation: gradientAnimation 8s ease infinite;
+  }
+  @keyframes gradientAnimation{
+
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }
+  .container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    /* border: 2px solid red; */
+    font-family: arial;
+    font-size: 16px;
+    background-color: rgb(210, 220, 255);
+    border-radius: 20px;
+  }
+  h2 {
+    text-align: center;
+  }
+  .container div {
+    text-align: center;
+  }
+  input {
+    width: 250px;
+    padding: 5px;
+  }
+  button {
+    width: 70px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: rgb(15, 35, 137);
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
